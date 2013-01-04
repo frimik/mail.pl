@@ -1,0 +1,57 @@
+=head1 NAME
+
+mail.pl - Fancier mail sender.
+
+=head1 SYNOPSIS
+
+mail.pl [options] [recipients ...]
+
+  Options:
+    --help    brief help message
+    --man     full documentatin
+
+=head1 OPTIONS
+
+=over 8
+
+=item B<--help>
+
+Print a brief help message and exits.
+
+=item B<--man>
+
+Prints the manual page and exits.
+
+=item B<--subject>
+
+Set the subject of the message
+
+=item B<--from> 
+
+Set the sender of the message
+
+=item B<--bcc>
+
+Add Bcc recipients to the message.
+
+=item B<--cc>
+
+Add Cc recipients to the message.
+
+=item B<--attach> file[,fileN]
+
+Add attachments to the message.
+
+=back
+
+=head1 DESCRIPTION
+
+B<mail.pl> will send mail to all recipients passed as arguments.
+
+=head1 AUTHOR
+
+Mikael Fridh <frimik@gmail.com>
+
+
+=cut
+
