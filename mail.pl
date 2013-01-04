@@ -143,7 +143,7 @@ Add Bcc recipients to the message.
 
 Add Cc recipients to the message.
 
-=item B<--attach>
+=item B<--attach> file[,fileN]
 
 Add attachments to the message.
 
