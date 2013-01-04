@@ -8,9 +8,7 @@ use strict;
 use Getopt::Long qw(:config no_ignore_case nobundling);
 use MIME::Lite;
 use MIME::Types qw(by_suffix);
-use Data::Dumper;
 use File::Basename;
-use Carp;
 use Pod::Usage;
 
 my $from;
@@ -113,7 +111,7 @@ mail.pl [options] [recipients ...]
 
   Options:
     --help    brief help message
-    --man     full documentatin
+    --man     full documentation
 
 =head1 OPTIONS
 

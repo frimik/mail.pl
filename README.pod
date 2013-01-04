@@ -8,7 +8,7 @@ mail.pl [options] [recipients ...]
 
   Options:
     --help    brief help message
-    --man     full documentatin
+    --man     full documentation
 
 =head1 OPTIONS
 
